@@ -16,6 +16,7 @@ Minor release after nf-core template 2.13.1 update
 
 - [#38] - Fixed metagenome mode to allow draft genomes
 - [#36] - Fixed bug with MERGE_FASTA process not being declared
+- [ ] - Improved/updated json schema as part of nf-core hackathon 2025
 
 ## 1.0.0 - 2024-02-07
 
