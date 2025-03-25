@@ -10,17 +10,16 @@
             "sample": {
                 "type": "string",
                 "pattern": "^\\S+$",
-                "unique": true,
                 "errorMessage": "Sample name must be provided and cannot contain spaces",
                 "meta": ["id"]
             },
             "seed": {
                 "type": "integer",
                 "errorMessage": "Seed must be provided",
-                "unique": true,
                 "meta": ["seed"]
             }
         },
         "required": ["sample", "seed"]
-    }
+    },
+    "uniqueItems": true
 }
